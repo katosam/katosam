@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours - Myanmar Travel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./images/vu.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="container header-content">
+                <div class="logo">
+                    <img src="./images/vu.png" alt="Myanmar Travel">
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Search tours...">
+                </div>
+                
+                <div class="user-actions">
+                    <a href="./signin.html">Sign In</a>
+                    <a href="./bookings.html">My Bookings</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="tours.html" class="active">Tours</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="flights.html">Flights</a></li>
+                    <li><a href="./photos.html">Photos</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="ppage-header">
+            <h1>Tour Packages</h1>
+        </section>
+        
+        <div class="container">
+            <section class="tour-filters">
+                <h2 class="section-title">Find Your Perfect Tour</h2>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="destination">Destination</label>
+                        <select id="destination">
+                            <option value="">All Destinations</option>
+                            <option value="yangon">Yangon</option>
+                            <option value="bagan">Bagan</option>
+                            <option value="mandalay">Mandalay</option>
+                            <option value="inle">Inle Lake</option>
+                            <option value="ngapali">Ngapali Beach</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="duration">Duration</label>
+                        <select id="duration">
+                            <option value="">Any Duration</option>
+                            <option value="1-3">1-3 Days</option>
+                            <option value="4-7">4-7 Days</option>
+                            <option value="8-14">8-14 Days</option>
+                            <option value="15+">15+ Days</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="price-range">Price Range</label>
+                        <select id="price-range">
+                            <option value="">Any Price</option>
+                            <option value="0-500">Under $500</option>
+                            <option value="500-1000">$500 - $1000</option>
+                            <option value="1000-2000">$1000 - $2000</option>
+                            <option value="2000+">Over $2000</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="tour-type">Tour Type</label>
+                        <select id="tour-type">
+                            <option value="">Any Type</option>
+                            <option value="cultural">Cultural</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="beach">Beach</option>
+                            <option value="cruise">Cruise</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="apply-filters">
+                    <button class="btn">Apply Filters</button>
+                </div>
+            </section>
+            
+            <section class="tour-list">
+                <h2 class="section-title">Featured Tours</h2>
+                <div class="tour-grid">
+                    <div class="tour-card">
+                        <div class="tour-image">
+                            <img src="./images/19.jpg" alt="Bagan Tour">
+                            <div class="tour-badge">Best Seller</div>
+                        </div>
+                        <div class="tour-info">
+                            <h3 class="tour-title">Bagan Temple Explorer (3 Days)</h3>
+                            <div class="tour-meta">
+                                <div class="tour-duration">
+                                    <i class="far fa-clock"></i> 3 Days
+                                </div>
+                                <div class="tour-group">
+                                    <i class="fas fa-users"></i> Small Group
+                                </div>
+                            </div>
+                            <div class="tour-price">
+                                $299 <span>per person</span>
+                            </div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card">
+                        <div class="tour-image">
+                            <img src="./images/Inle_Lake.jpg" alt="Inle Lake Tour">
+                            <div class="tour-badge">Popular</div>
+                        </div>
+                        <div class="tour-info">
+                            <h3 class="tour-title">Inle Lake Experience (2 Days)</h3>
+                            <div class="tour-meta">
+                                <div class="tour-duration">
+                                    <i class="far fa-clock"></i> 2 Days
+                                </div>
+                                <div class="tour-group">
+                                    <i class="fas fa-users"></i> Private Tour
+                                </div>
+                            </div>
+                            <div class="tour-price">
+                                $249 <span>per person</span>
+                            </div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card">
+                        <div class="tour-image">
+                            <img src="./images/14.jpg" alt="Yangon Tour">
+                        </div>
+                        <div class="tour-info">
+                            <h3 class="tour-title">Yangon City Highlights (Full Day)</h3>
+                            <div class="tour-meta">
+                                <div class="tour-duration">
+                                    <i class="far fa-clock"></i> 1 Day
+                                </div>
+                                <div class="tour-group">
+                                    <i class="fas fa-users"></i> Small Group
+                                </div>
+                            </div>
+                            <div class="tour-price">
+                                $99 <span>per person</span>
+                            </div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card">
+                        <div class="tour-image">
+                            <img src="./images/Mandalay.jpg" alt="Mandalay Tour">
+                        </div>
+                        <div class="tour-info">
+                            <h3 class="tour-title">Mandalay Cultural Tour (2 Days)</h3>
+                            <div class="tour-meta">
+                                <div class="tour-duration">
+                                    <i class="far fa-clock"></i> 2 Days
+                                </div>
+                                <div class="tour-group">
+                                    <i class="fas fa-users"></i> Private Tour
+                                </div>
+                            </div>
+                            <div class="tour-price">
+                                $199 <span>per person</span>
+                            </div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card">
+                        <div class="tour-image">
+                            <img src="./images/5d.jpg" alt="Ngapali Tour">
+                            <div class="tour-badge">New</div>
+                        </div>
+                        <div class="tour-info">
+                            <h3 class="tour-title">Ngapali Beach Relaxation (5 Days)</h3>
+                            <div class="tour-meta">
+                                <div class="tour-duration">
+                                    <i class="far fa-clock"></i> 5 Days
+                                </div>
+                                <div class="tour-group">
+                                    <i class="fas fa-users"></i> Small Group
+                                </div>
+                            </div>
+                            <div class="tour-price">
+                                $599 <span>per person</span>
+                            </div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card">
+                        <div class="tour-image">
+                            <img src="./images/20.jpg" alt="Golden Triangle Tour">
+                        </div>
+                        <div class="tour-info">
+                            <h3 class="tour-title">Golden Triangle Explorer (7 Days)</h3>
+                            <div class="tour-meta">
+                                <div class="tour-duration">
+                                    <i class="far fa-clock"></i> 7 Days
+                                </div>
+                                <div class="tour-group">
+                                    <i class="fas fa-users"></i> Small Group
+                                </div>
+                            </div>
+                            <div class="tour-price">
+                                $899 <span>per person</span>
+                            </div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Travel Services</h3>
+                    <ul>
+                        <li><a href="tours.html">Tours & Packages</a></li>
+                        <li><a href="hotels.html">Hotel Bookings</a></li>
+                        <li><a href="flights.html">Flight Tickets</a></li>
+                        <li><a href="">Travel Insurance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="">Yangon</a></li>
+                        <li><a href="">Mandalay</a></li>
+                        <li><a href="">Bagan</a></li>
+                        <li><a href="">Inle Lake</a></li>
+                        <li><a href="">Ngapali Beach</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Phone: +256 772 753 208</li>
+                        <li>Email: info@latinotravel.com</li>
+                        <li>Address: No.123, Entebe, Uganda </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                © 2025 Latino Travel. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

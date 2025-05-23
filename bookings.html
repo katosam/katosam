@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings - Myanmar Travel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./images/vu.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="container header-content">
+                <div class="logo">
+                    <img src="./images/vu.png" alt="Myanmar Travel">
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>
+                
+                <div class="user-actions">
+                    <a href="./signin.html">Sign In</a>
+                    <a href="./bookings.html" class="active">My Bookings</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="flights.html">Flights</a></li>
+                    <li><a href="./photos.html">Photos</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="account-header">
+            <div class="container">
+                <h1>My Account</h1>
+            </div>
+        </section>
+        
+        <div class="container">
+            <div class="account-container">
+                <div class="account-sidebar">
+                    <h3>My Account</h3>
+                    <ul class="account-menu">
+                        <li><a href="./bookings.html" class="active">My Bookings</a></li>
+                        <li><a href="">Profile</a></li>
+                        <li><a href="">Payment Methods</a></li>
+                        <li><a href="">Wishlist</a></li>
+                        <li><a href="">Settings</a></li>
+                        <li><a href="">Sign Out</a></li>
+                    </ul>
+                </div>
+                
+                <div class="account-content">
+                    <div class="account-welcome">
+                        <h2>Welcome back!</h2>
+                        <p>Here are your upcoming and past bookings with Latino Travel.</p>
+                    </div>
+                    
+                    <div class="booking-tabs">
+                        <div class="booking-tab active">Upcoming (3)</div>
+                        <div class="booking-tab">Completed (5)</div>
+                        <div class="booking-tab">Cancelled (1)</div>
+                    </div>
+                    
+                    <div class="booking-list">
+                        <div class="booking-item">
+                            <div class="booking-image">
+                                <img src="./images/13.jpg" alt="Bagan Temple Tour">
+                            </div>
+                            <div class="booking-details">
+                                <h3 class="booking-title">Bagan Temple Explorer (3 Days)</h3>
+                                <div class="booking-meta">
+                                    <div class="booking-date">
+                                        <i class="far fa-calendar-alt"></i> 15-17 Nov 2023
+                                    </div>
+                                    <div class="booking-people">
+                                        <i class="fas fa-users"></i> 2 Adults
+                                    </div>
+                                </div>
+                                <span class="booking-status status-confirmed">Confirmed</span>
+                                <div class="booking-price">$598.00</div>
+                                <div class="booking-actions">
+                                    <a href="#" class="btn-outline">View Details</a>
+                                    <a href="#" class="btn">Download Invoice</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-item">
+                            <div class="booking-image">
+                                <img src="./images/5d.jpg" alt="Ngapali Beach Resort">
+                            </div>
+                            <div class="booking-details">
+                                <h3 class="booking-title">Ngapali Paradise Resort</h3>
+                                <div class="booking-meta">
+                                    <div class="booking-date">
+                                        <i class="far fa-calendar-alt"></i> 20-25 Dec 2023
+                                    </div>
+                                    <div class="booking-people">
+                                        <i class="fas fa-users"></i> 2 Adults, 1 Child
+                                    </div>
+                                </div>
+                                <span class="booking-status status-confirmed">Confirmed</span>
+                                <div class="booking-price">$1,245.00</div>
+                                <div class="booking-actions">
+                                    <a href="" class="btn-outline">View Details</a>
+                                    <a href="" class="btn">Download Invoice</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-item">
+                            <div class="booking-image">
+                                <img src="./images/14.jpg" alt="Yangon City Hotel">
+                            </div>
+                            <div class="booking-details">
+                                <h3 class="booking-title">Yangon Grand Hotel</h3>
+                                <div class="booking-meta">
+                                    <div class="booking-date">
+                                        <i class="far fa-calendar-alt"></i> 5-7 Jan 2024
+                                    </div>
+                                    <div class="booking-people">
+                                        <i class="fas fa-users"></i> 1 Adult
+                                    </div>
+                                </div>
+                                <span class="booking-status status-pending">Pending Payment</span>
+                                <div class="booking-price">$320.00</div>
+                                <div class="booking-actions">
+                                    <a href="" class="btn-outline">View Details</a>
+                                    <a href="" class="btn">Complete Payment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Travel Services</h3>
+                    <ul>
+                        <li><a href="tours.html">Tours & Packages</a></li>
+                        <li><a href="hotels.html">Hotel Bookings</a></li>
+                        <li><a href="flights.html">Flight Tickets</a></li>
+                        <li><a href="">Travel Insurance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="">Yangon</a></li>
+                        <li><a href="">Mandalay</a></li>
+                        <li><a href="">Bagan</a></li>
+                        <li><a href="">Inle Lake</a></li>
+                        <li><a href="">Ngapali Beach</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Phone: +256 772 753 208</li>
+                        <li>Email: info@latinotravel.com</li>
+                        <li>Address: No.123, Entebe, Uganda </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                © 2025 Latino Travel. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
